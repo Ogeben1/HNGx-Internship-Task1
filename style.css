@@ -1,0 +1,109 @@
+body{
+    margin: 20px;
+    background-color: #45442e;
+    color: hwb(313 69% 9%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.main{
+    height: 100vh;
+    border-radius: 15px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.oge{
+    width: 100px;
+    border-radius: 25%;
+    margin-top: 30px;
+}
+
+.tcenter{
+    text-align: center;
+}
+
+.git-link > p{
+    color: rgb(209, 218, 135);
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.datetime-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 200px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cd-container, .time-container{
+    background-color: #5C5470;
+    color: white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.git{
+    width: 50px;
+    margin-top: 30px;
+}
+
+.git-img-cont{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: block;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .oge{
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    h2{
+        text-align: center;
+        margin-top: 20px;
+        font-size: medium;
+    }
+
+    .datetime-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .cd-container, .time-container{
+        width: 100%;
+        height: 130px;
+    }
+    
+  }
