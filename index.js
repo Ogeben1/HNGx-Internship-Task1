@@ -14,6 +14,7 @@ document.querySelector("[data-testid='currentDayOfTheWeek']").textContent = `Cur
 document.querySelector("[data-testid='currentDayOfTheWeek']").textContent = `${currentDayOfTheWeek}`
 
 const currentUTCTime = currentDate.toUTCString()
+
 const currentUTCTimeInMilliSeconds = Date.parse(currentUTCTime)
 document.querySelector("[data-testid='currentUTCTime']").textContent = `Current UTC time: ${currentUTCTimeInMilliSeconds}`
 document.querySelector("[data-testid='currentUTCTime']").textContent 
